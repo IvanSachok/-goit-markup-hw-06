@@ -736,10 +736,12 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
-  color: var(--heder-list-contacts);
+  outline: none;
+  resize: none;
 }
 .text-comment:focus {
-  border-color: 1px solid var(--logo-web);
+  outline: none;
+  border: 1px solid var(--logo-web);
 }
 .accept {
   width: 338px;
