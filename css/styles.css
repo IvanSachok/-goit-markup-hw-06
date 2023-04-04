@@ -703,6 +703,15 @@ img {
   margin-top: 4px;
   margin-bottom: 8px;
 }
+.input-wrap {
+  position: relative;
+}
+.modal-input-icon {
+  position: absolute;
+  left: 19px;
+  top: 45%;
+  transform: translatey(-45%);
+}
 .modal-label {
   display: block;
   font-style: normal;
