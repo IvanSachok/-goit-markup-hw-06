@@ -702,6 +702,14 @@ img {
   padding-left: 38px;
   margin-top: 4px;
   margin-bottom: 8px;
+  color: var(--heder-list-contacts);
+  outline: transparent;
+}
+.modal-input:focus {
+  border: var(--logo-web);
+}
+.modal-input:focus + .modal-input-icon {
+  fill: var(--logo-web);
 }
 .input-wrap {
   position: relative;
@@ -729,6 +737,9 @@ img {
   border-radius: 4px;
   margin-top: 4px;
   color: var(--heder-list-contacts);
+}
+.text-comment:focus {
+  border: var(--logo-web);
 }
 .accept {
   width: 338px;
