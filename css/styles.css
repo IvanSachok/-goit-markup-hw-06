@@ -757,14 +757,26 @@ img {
 .privacy-policy {
   text-decoration: underline;
   color: var(--logo-web);
+  margin-left: 5px;
 }
 
-.svg-icon {
-}
-.checkbox {
+.modal-check {
   appearance: none;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
 }
-.checkbox-span {
+.check-text {
+  display: flex;
+  font-style: normal;
+  color: var(--icon-color);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: calc(14 / 12);
+  align-items: end;
+}
+.check-text::before {
+  content: "";
   display: block;
   width: 16px;
   height: 16px;
@@ -774,10 +786,10 @@ img {
   margin-right: 8px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-input {
-  display: flex;
-  align-items: center;
-  margin: 16px 0 24px 0;
+.modal-check:checked + .check-text::before {
+  background-color: var(--focus);
+  border: none;
+  background-image: url(../images/check.svg);
 }
 .button-send {
   font-style: normal;
