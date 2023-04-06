@@ -872,7 +872,6 @@ img {
   background: var(--hover);
 }
 .button-icon {
-  display: inline-flex;
   align-items: center;
   margin-left: 16px;
 }
