@@ -340,10 +340,12 @@
                     <h3 class="subscribe-title">Subscribe</h3>
                     <div class="container-input">
                         <label for="e-mail">
-                            <input class="footer-imput-email" type="e-mail" name="e-mail" placeholder="E-mail"
+                            <input class="footer-imput-email" type="mail" name="e-mail" placeholder="E-mail"
                                 id="e-mail">
-                            <button class="footer-submit" type="submit">
-                                <p class="button-subscribe">Subscribe</p>
+                            <button class="footer-submit" type="submit" id="e-mail">
+                                <span>
+                                    <p class="button-subscribe">Subscribe</p>
+                                </span>
                                 <svg class="button-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-frame"></use>
                                 </svg>
@@ -393,7 +395,6 @@
                 <label class="check-text" for="privacy">
                     I accept the terms and conditions of the<a class="privacy-policy" href="">Privacy Policy</a>
                 </label>
-
                 <button class="button-send" type="submit">Send</button>
             </form>
             <button type="button" class="modal-close" data-modal-close>
