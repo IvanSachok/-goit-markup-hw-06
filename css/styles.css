@@ -833,7 +833,7 @@ img {
   color: var(--primary-background-color);
 }
 .container-input {
-  display: ;
+  display: flex;
 }
 .footer-imput-email {
   font-size: 12px;
