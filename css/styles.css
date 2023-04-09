@@ -716,8 +716,8 @@ img {
 .modal-input-icon {
   position: absolute;
   left: 19px;
-  top: 60%;
-  transform: translatey(-60%);
+  top: 75%;
+  transform: translatey(-75%);
 }
 .modal-label {
   display: block;
